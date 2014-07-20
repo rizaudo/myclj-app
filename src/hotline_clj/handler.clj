@@ -2,7 +2,8 @@
   (:use hotline-clj.views)
   (:require [compojure.core :refer :all]
             [compojure.handler :as handler]
-            [compojure.route :as route]))
+            [compojure.route :as route]
+            ))
 
 (defroutes app-routes
   (GET "/" [] (index-page))
